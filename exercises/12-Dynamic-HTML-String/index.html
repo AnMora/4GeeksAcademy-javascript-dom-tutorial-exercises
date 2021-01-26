@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>DYNAMIC HTML STRING</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>DYNAMIC HTML STRING</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var myDate = new Date();
+			var myYear = myDate.getFullYear();
+			let mystring = "<p>Hello!</p><p><strong>My friend</strong>, we are in the year";
+			document.write(mystring + " " + myYear + "</p>");
+		</script>
+	</body>
 </html>
